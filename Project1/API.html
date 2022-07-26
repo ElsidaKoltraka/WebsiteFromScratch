@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Api</title>
+<meta charset="UTF-8">
+<meta http-equiv="refresh" content="300">
+<meta name="viewport" content="">
+<script src="api.js" type="module"></script>
+
+</head>
+<body>
+   
+
+    <div style="position: relative;">
+        <p id="quote"></p>
+        <p id="author"></p>
+    </div>
+    <script>
+function bmi(){
+	
+	var height = parseFloat(document.getElementById("Height").value)
+    var weight = parseFloat(document.getElementById("Weight").value)
+	var bmi=weight/(height*height);
+	var userBMI=document.getElementById("bmi_index")
+	userBMI.textContent=bmi.toFixed(2);
+}
+    </script>
+
+    <div style="position: relative;">
+         height<input type="text" id="Height"><br>
+         weight<input type="text" id="Weight"><br>
+         <input type="button" value=" CalculateBMI" onclick="bmi()">
+         <h2 class="text-input">BMI = <b id="bmi_index"></b></h2>
+
+    </div>
+    <div style="position: relative;">
+        <p id="apiii"></p>
+        <p id="ssss"></p>
+    </div>
+ 
+</body>
+</html>

@@ -1,0 +1,703 @@
+* {
+	box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    background-image: url('images/117004062-sports-equipment-on-a-black-background-top-view-motivation.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-position:center ;
+    padding-top: 100px;
+	position: relative;
+}
+
+
+nav.navbar {
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999999;
+	margin-bottom: 30px;
+	transition: top 0.2s;
+}
+
+.nav-item {
+	margin-left: 20px;
+}
+
+footer {
+	width: 100%;
+	position: absolute;
+	overflow: hidden;
+	padding-top: 25px;
+}
+
+
+.card {
+	margin-bottom: 20px;
+}
+
+.join-group {
+	flex: auto;
+	margin-left: auto;
+}
+
+.form-group {
+	margin-top: 20px;
+}
+.left-container{
+    width: 10%;
+}
+.right-container{
+    width: 10%;
+}
+.web-containerrr{
+    width: 80%;
+    margin: 0 10%;
+ 
+    
+    height:max-content;
+}
+
+
+.pic{
+   
+   width: fit-content;
+   height: 40em;
+    
+}
+
+.slider-image{
+    overflow: hidden;
+    height: 40em;
+}
+.slider-image figure{
+
+    width: 500%;
+    left : 0;
+    margin: 0;
+    height: 40em;
+    position:relative ;
+    animation: 30s slider infinite;
+
+}
+
+.slider-image figure img {
+    width: 20%;
+    float: left;
+   
+
+}
+@keyframes slider {
+
+   
+    0% {
+        left: 0;
+        
+    }
+    20% {
+        left: 0;
+    }
+    25% {
+        left: -100%;
+    }
+    45% {
+        left: -100%;
+    }
+    50% {
+        left: -200%;
+    }
+    70% {
+        left: -200%;
+    }
+    75% {
+        left: -300%;
+    }
+    95% {
+        left: -300%;
+    }
+    100% {
+        left: -400%;
+    }
+}
+.main-content{
+
+    height: 20em;
+    
+   
+}
+.training-content{
+    
+    height: 42em;
+    
+}
+.training-content-header{
+    color:#ffef15;
+    text-align: center;
+   
+    
+    
+    margin-top: 1%;
+    font-family: "hansen-grotesque-bold",sans-serif;
+    font-weight: bold;
+    
+    pointer-events: none;
+}
+
+.training-content-header h3{
+    font-size: 20px;
+}
+.training-content-header h1{
+    font-size: 3em;
+    border-bottom: 5px solid #ffef15;
+    font-weight: bold;
+}
+
+
+.image{
+    width: 100%;
+    height: 100%;
+}
+
+.pic1{
+   
+    
+    width: 33%;
+    position: relative;
+    height: 20em;
+    margin: 0% 0.5% 1% 0%;
+    float: left;
+    text-decoration: none;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    
+}
+.pic2{
+
+    
+    width: 33%;
+    position: relative;
+    height: 20em;
+    margin: 0% 0% 1% 0%;
+    float: left;
+    text-decoration: none;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    
+}
+.pic3{
+  
+    
+    width: 33%;
+    position: relative;
+    height: 20em;
+    margin: 0% 0% 1% 0.5%;
+    float: left;
+    text-decoration: none;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    
+}
+.pic4{
+    
+    
+    
+    width: 49%;
+    position: relative;
+    height: 20em;
+    margin: 1% 1% 1% 0;
+    float: left;
+    text-decoration: none;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    
+}
+.pic5{
+   
+    width: 49%;
+    position: relative;
+    height: 20em;
+    margin: 1% 0% 1% 1%;
+    float: left;
+    text-decoration: none;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    
+}
+
+
+
+.textingTT {
+    color:#ffef15;
+    
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align:left;
+    font-family: "hansen-grotesque-bold",sans-serif;
+    font-size: 20px;
+   
+    
+    
+ }
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color:blue;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .9s ease;
+    
+} 
+.hover-container:hover .overlay {
+    height: 100%;
+}
+.headline {
+    background: blue;
+    width: 100%;
+    text-align: center;
+    max-height: 78px;
+    position: absolute;
+    bottom: 0;
+    margin: 0%;
+    box-sizing: border-box;
+    padding: 5px 10px;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 23px;
+    color: #ffef15;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: "hansen-grotesque-bold",sans-serif;
+}
+.section-header{
+    
+    color:#ffef15;
+    text-align: center;
+    border-bottom: 5px solid #ffef15;
+    font-size: 3em;
+    
+    margin-top: 1%;
+    font-family: "hansen-grotesque-bold",sans-serif;
+    font-weight: bold;
+
+    pointer-events: none;
+}
+
+.section-header-content{
+ 
+    margin-top: 1%;
+    font-family: "hansen-grotesque-bold",sans-serif;
+    width: 40%;
+    left: 30%;
+    font-size: 20px;
+    
+    
+    
+    position: relative;
+    justify-content: center;
+    color:#ffef15;
+    pointer-events: none;
+  
+   
+}
+.button-click{
+
+    align-items: center;
+   
+    background-color: initial;
+    background-color: blue;
+    border: 0;
+    color: #ffef15;
+    border-radius: 50px;
+    font-weight: bolder;
+
+    cursor: pointer;
+    display: inline-flex;
+
+    
+    justify-content: center;
+    
+    margin: 1%;
+    padding: 10px;
+    width: 15%;
+    left: 41%;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    
+}
+.button-click:hover{
+    background-color:#0d6efd;
+}
+.gym-map-header{
+    text-align: center;
+    color:#ffef15;
+    margin-top: 8%;
+    font-family: "hansen-grotesque-bold",sans-serif;
+    
+
+    pointer-events: none;
+    
+}
+.gym-map-header h1{
+    font-weight: bold;
+    font-size: 3em;
+    
+    
+    border-bottom: 5px solid #ffef15;
+}
+.gym-map-header h4{
+    font-size: 20px;
+}
+.calc-container{
+    display: flex;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    height:  28.125em;
+    background: rgba(0, 0, 0, 0.5);
+    
+}
+.gym-calc{
+    width: 40%;
+    height:100%;
+    color: black
+    
+    
+}
+.gym-calc h2 {
+    
+    font-size: 3em;
+    
+}
+.form-text {
+    
+    text-align: left;
+    
+	
+}
+.calc-content{
+    width: 90%;
+    height:100%;
+    font-family: "hansen-grotesque-bold",sans-serif;
+    font-weight: bold;
+    
+    
+    background-color: #fff;
+    
+    padding: 20px;
+    padding-left: 40px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 20px #bfee52;
+}
+.calc-content h2 {
+    margin-bottom: 10%;
+}
+#w, #h{
+    color: #222f3e;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 200;
+    outline: none;
+    border: none;
+    background: none;
+    border-bottom: 1px solid #341f97;
+    width: 200px;
+}
+#w:focus, #h:focus{
+    border-bottom: 2px solid #341f97;
+    width: 300px;
+    transition: 0.5s;
+}
+#result{
+    color: #341f97;
+}
+#btn{
+    font-family: inherit;
+    margin-top: 10px;
+    border: none;
+    color: #fff;
+    background-color: blue;
+    width: 150px;
+    padding: 10px;
+    border-radius: 30px;
+    outline: none;
+    cursor: pointer;
+}
+#btn:hover{
+    box-shadow: 1px 1px 10px #341f97;
+}
+#info{
+    font-size: 12px;
+    font-family: inherit;
+}
+
+.gym-info{
+    
+    width: 60%;
+    height: 100%;
+    font-weight: bold;
+    font-family: "hansen-grotesque-bold",sans-serif;
+    font-size: 1.5em;
+    color:  white;
+    pointer-events: none;
+   
+}
+.gym-info h2 {
+    font-size: 1.7em;
+    font-weight: bold;
+    
+}
+
+article {
+    height: fit-content;
+    font-size: 0.8em;
+    text-align:left;
+    padding-top:10px;
+    
+    
+    
+}
+
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+.fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+  
+  /* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-instagram {
+    background: #55ACEE;
+    color: white;
+}
+.support-div{
+    height: 8em;
+    background: rgba(0, 0, 0, 0.5);
+    margin: 2% 0;
+    border-radius: 50px;
+    
+}
+.support-div h1{
+    color: #ffef15;
+    text-align: center;
+    font-family: "hansen-grotesque-bold",sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+    margin-top: 1%;
+    pointer-events: none;
+}
+.video-container{
+    width: 100%;
+
+    
+}
+/* Style the video: 100% width and height to cover the entire window */
+#classes {
+    
+    width: 100%;
+    height: fit-content;
+    
+   
+}
+/* Add some content at the bottom of the video/page */
+.video-content {
+  
+  
+  position: relative;
+  display: flex;
+  
+  font-family: "hansen-grotesque-bold",sans-serif;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  
+  
+}
+.video-content p {
+    pointer-events: none;
+    padding: 10px;
+    font-weight: bold;
+    
+    
+    color: white;
+}
+.video-content h1 {
+    color: white;
+    pointer-events: none;
+    margin-left: 10px;
+   
+}
+#book-class {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: white;
+    cursor: pointer;
+}
+  
+#book-class:hover {
+    background: blue;
+    color:#ffef15;
+}
+
+  
+ 
+
+@media screen and (max-width:768px){
+    body{
+        background: rgb(10, 10, 49);
+        margin: 0;
+        
+    }
+    .web-containerrr{
+        width:100%;
+        margin:0;
+    
+    }
+    .section-header-content{       
+        width: 100%;
+        left: 0%;
+        text-align: center;
+    
+    } 
+    .main-content{
+
+        height: 15em;
+    }
+    .left-container{
+        width: 0%;
+    }
+    .right-container{
+        width: 0%;
+    }
+   
+    .calc-container{
+        display: flex;
+        margin-bottom: 5%;
+        height:  28.125em;
+        
+        
+    }
+    .training-content-header h1 {
+        font-weight: bold;
+    }
+    article {
+        height: fit-content;
+        font-size: 0.6em;
+        text-align:left;
+        padding-top:10px;
+        
+    }
+    .gym-info{
+        padding-left: 20px;
+    }
+    .gym-info h2 {
+        font-size: 1.5em;
+    }
+
+}
+@media screen and (max-width:425px){
+    body{
+        
+        margin: 0;
+        width: fit-content;
+        background-color: rgb(10, 10, 49);
+    }
+    .left-container{
+        width: 0%;
+    }
+    .right-container{
+        width: 0%;
+    }
+    .web-containerrr{
+        width: fit-content;
+        margin: 1px; 
+        
+        
+        height:max-content;
+    }
+    .section-header-content{       
+    width: 100%;
+    left: 0%;
+    text-align: center;
+
+    }   
+    .section-header{
+        font-size: 2.5em;
+        margin-top: 2%;
+    }
+    .main-content{
+
+        height: 15em;
+    }
+    .training-content-header h1{
+        font-size: 2.5em;
+        border-bottom: 5px solid #0d6efd;
+    }
+    .button-click{
+        padding: 20px;
+        width: 33.3%;
+        left: 32.3%;
+        font-size: 20px;
+    }
+    
+    .image{
+        
+        width: fit-content;
+        height: fit-content;
+        
+        
+    }
+    .calc-container{
+        display: flex;
+        margin-bottom: 5%;
+        height:  28.125em;
+        
+        
+    }
+   
+    .video-content p {
+        
+        padding: 10px;
+        margin: 20;
+        
+    }
+   
+    
+
+}

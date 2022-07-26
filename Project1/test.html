@@ -1,0 +1,31 @@
+<html>
+<head>
+    <script src="js/jquery-1.9.1.js"></script>
+    <script src="js/jquery.ui-1.10.3.custom.js"></script>
+    
+</head>
+<body>
+    <input type="text" id="text1">
+    <input type="submit" id="sub" value="Delete">
+    <div id="show">
+    </div>
+    <script type="text/javascript">
+    $(document).ready(function(){
+       $("#sub").click(function() {
+           var rec=$("#text1").val();
+           $.post("delete1.php",{rec1:rec},function(data){
+
+           })
+           $("#show").html("<p> record deleted </p>");
+
+
+       });
+
+    });
+
+
+
+    </script>
+
+</body>
+</html>
